@@ -1,0 +1,28 @@
+    1  git init
+    2  touch l1.txt
+    3  git commit -m "Initial commit"
+    4  git add l1.txt
+    5  git commit -m "Initial commit"
+    6  git add l1.txt
+    7  git commit -m "modify l1.txt"
+    8  git remote add origin https://github.com/teodornikola/firstrepo.git
+    9  git push -u origin master
+   10  git checkout -- <l1.txt>
+   11  git checkout -- l1.txt
+   12  git checkout -b logging
+   13  touch log.txt
+   14  git log > log.txt
+   15  git push origin logging
+   16  git checko
+   17  git checkout logging
+   18  git add log.txt
+   19  git commit
+   20  git log
+   21  git reflog
+   22  history
+   23  git checkout master 
+   24  git merge logging
+   25  git push -u origin master
+   26  git checkout -b allcomands
+   27  touch allcomands.txt
+   28  history > allcomands.txt
